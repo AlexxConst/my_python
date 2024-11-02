@@ -16,5 +16,5 @@ class Solution(object):
 
 solution = Solution()
 
-res = solution.makeFancyString("Vvvaaaaalllllleeeerrrraaaaa")
+res = solution.makeFancyString('Heeellllooo wooorrrrlllddd')
 print(res)
