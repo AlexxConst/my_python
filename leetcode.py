@@ -5,7 +5,7 @@ class Solution(object):
 
         for char in s:
             if stack and stack[-1][0] == char:
-                count = min(stack[-1][1] + 1, 2)
+                count = min(stack[-1][1] + 1, 1)
                 stack[-1] = (char, count)
             else:
                 stack.append((char, 1))
